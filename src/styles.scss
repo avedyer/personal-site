@@ -1,3 +1,22 @@
+body {
+  margin: 0;
+}
+
 #App {
-  color: red;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.frame {
+  height: 100vh;
+}
+
+#navigator {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
